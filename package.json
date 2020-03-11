@@ -1,0 +1,36 @@
+{
+  "name": "togglet",
+  "version": "0.0.0",
+  "description": "Easy behavior for anything that toggles.",
+  "files": [
+    "dist/*"
+  ],
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "microbundle build -i src/index.ts",
+    "start": "microbundle watch -i src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/corenzan/togglet.git"
+  },
+  "keywords": [
+    "toggle",
+    "popover",
+    "dropdown",
+    "dialog"
+  ],
+  "author": "Arthur <arthur@corenzan.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/corenzan/togglet/issues"
+  },
+  "homepage": "https://github.com/corenzan/togglet#readme",
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "jest": "^25.1.0",
+    "microbundle": "^0.11.0",
+    "ts-jest": "^25.2.1"
+  }
+}
